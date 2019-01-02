@@ -2,8 +2,16 @@
 ### 字体
 
 - [powerline](https://github.com/powerline/fonts)
-    ```
+    ```bash
+    # Ubuntu
     sudo apt-get install fonts-powerline
+
+    # Mac
+    git clone https://github.com/powerline/fonts.git --depth=1c
+    cd fonts
+    ./install.sh
+    cd ..
+    rm -rf fonts
     ```
 
 ### Vundle 常用插件
