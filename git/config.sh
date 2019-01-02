@@ -12,7 +12,7 @@ if [ -z "$info_config" ] || [ "$info_config" = 'y' -o "$info_config" = 'Y' ]; th
     read -p '邮箱: ' user_mail
     git config --global user.email $user_mail
 
-    read -p '邮箱: ' editor
+    read -p '编辑器: ' editor
     git config --global core.editor $editor
 
     echo '当前用户全局配置文件: ~/.gitconfig\n'
@@ -30,7 +30,7 @@ if [ -z "$ssh_config" ] || [ "$ssh_config" = 'y' -o "$ssh_config" = 'Y' ]; then
     fi
 
     if [ ! -f "$ssh_config_path/id_rsa" -o ! -f "$ssh_config_path/id_rsa.pub" ]; then
-        echo '开始生成 SSH 密钥'
-        ssh-keygens
+        echo '开始生成 SSH 密钥......'
+        ssh-keygen
     fi
 fi
