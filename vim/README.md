@@ -61,3 +61,9 @@ Plugin 'nathanaelkane/vim-indent-guides'
 let g:indent_guides_start_level=2                   " 从第二层开始可视化显示缩进
 let g:indent_guides_guide_size=1                    " 色块宽度
 ```
+
+#### 5. dockerfile 语法: [Dockerfile.vim](https://github.com/ekalinin/Dockerfile.vim)
+```
+" dockerfile 语法
+Plugin 'ekalinin/Dockerfile.vim'
+```
