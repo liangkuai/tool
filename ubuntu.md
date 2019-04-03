@@ -78,9 +78,19 @@ $ sudo groupadd docker
 $ sudo usermod -aG docker $USER
 ```
 
+## [VirtualBox](https://www.virtualbox.org/wiki/Linux_Downloads)
+
+```bash
+$ sudo sh -c 'echo "deb https://download.virtualbox.org/virtualbox/debian xenial contrib" >> /etc/apt/sources.list.d/google.list'
+
+$ wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc -O- | sudo apt-key add  -
+
+$ sudo apt-get update 
+$ sudo apt-get install virtualbox-6.0
+```
 
 ## 网易云音乐
-```
+```bash
 # 官网下载 .deb 包之后
 $ sudo dpkg -i netease-cloud-music_1.1.0_amd64_ubuntu.deb
 
