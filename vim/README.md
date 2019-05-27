@@ -1,7 +1,12 @@
+# Vim 使用
+
+- [.vimrc](./.vimrc)：Vim 通用配置文件
+- [config.sh](./config.sh)：Vim 配置脚本
 
 ### 字体
 
 - [powerline](https://github.com/powerline/fonts)
+
     ```bash
     # Ubuntu
     sudo apt-get install fonts-powerline
@@ -16,14 +21,17 @@
 
 ### Vundle 常用插件
 
-#### 1. 主题: [gruvbox](https://github.com/morhetz/gruvbox)
+#### 1. 主题：[gruvbox](https://github.com/morhetz/gruvbox)
 
 1. 查看终端是否支持 256 色
+
     ```bash
     $ (x=`tput op` y=`printf %76s`;for i in {0..256};do o=00$i;echo -e ${o:${#o}-3:3} `tput setaf $i;tput setab $i`${y// /=}$x;done)
     ```
+
 2. vim 配置
-    ```
+
+    ```vim
     " 主题
     Plugin 'morhetz/gruvbox'
 
@@ -34,7 +42,8 @@
     ```
 
 #### 2. 状态栏：[vim-airline](https://github.com/vim-airline/vim-airline)
-```
+
+```vim
 " 状态栏
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
@@ -46,13 +55,15 @@ let g:airline_theme='powerlineish'      " vim-airline 主题配置
 ```
 
 #### 3. 文件管理：[nerdtree](https://github.com/scrooloose/nerdtree)
-```
+
+```vim
 " 文件管理
 Plugin 'scrooloose/nerdtree'
 ```
 
 #### 4. 缩进：[vim-indent-guides](https://github.com/nathanaelkane/vim-indent-guides)
-```
+
+```vim
 " 缩进
 Plugin 'nathanaelkane/vim-indent-guides'
 
@@ -63,7 +74,8 @@ let g:indent_guides_guide_size=1                    " 色块宽度
 ```
 
 #### 5. dockerfile 语法: [Dockerfile.vim](https://github.com/ekalinin/Dockerfile.vim)
-```
+
+```vim
 " dockerfile 语法
 Plugin 'ekalinin/Dockerfile.vim'
 ```
