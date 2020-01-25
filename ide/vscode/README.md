@@ -8,6 +8,10 @@
 
 - Code Runner
 
+#### Git
+
+- GitLens — Git supercharged
+
 #### Markdown
 
 - markdownlint
