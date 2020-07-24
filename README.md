@@ -1,6 +1,8 @@
-# config
+# configO
 
-### IDE
+#### [Git](./git)
+
+#### IDE
 
 - IDEA
 - VS Code
