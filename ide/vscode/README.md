@@ -16,6 +16,10 @@
 
 - markdownlint
 
+#### 特殊文件
+
+- hexdump for VSCode（查看二进制文件）
+
 #### 主题
 
 - One Dark Pro
