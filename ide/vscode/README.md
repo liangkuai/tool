@@ -4,6 +4,10 @@
 
 - C/C++
 
+#### Rust
+
+- rust-analyzer
+
 #### 代码运行
 
 - Code Runner
