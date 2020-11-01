@@ -58,6 +58,13 @@
 - MAC：[ShadowsocksX-NG](https://github.com/shadowsocks/ShadowsocksX-NG)
 - Linux：[Shadowsocks-Qt5 (deprecated)](https://github.com/shadowsocks/shadowsocks-qt5)
 
+```
+// 插件
+obfs-local
+
+// 插件选项
+obfs=http;obfs-host=www.baidu.com
+```
 
 ### 参考
 - [shadowsocks - GitHub](https://github.com/shadowsocks)
