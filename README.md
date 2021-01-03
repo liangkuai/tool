@@ -1,6 +1,6 @@
-# configO
+# config
 
-#### [Git](./git)
+#### [1. Git](./git)
 
 #### IDE
 
