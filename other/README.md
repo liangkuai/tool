@@ -20,3 +20,11 @@
 1. [Xclient](https://xclient.info/)
 2. [爱奶酪](https://www.icheese.org/)
 3. [Mac毒](https://www.macdo.cn/)
+
+
+### x86 模拟器
+
+1. [Bochs](http://bochs.sourceforge.net/)
+
+    调试功能强，运行效率低点。
+
