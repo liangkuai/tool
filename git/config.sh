@@ -15,7 +15,7 @@ if [ -z "$info_config" ] || [ "$info_config" = 'y' -o "$info_config" = 'Y' ]; th
     read -p '编辑器: ' editor
     git config --global core.editor $editor
 
-    echo '当前用户全局配置文件: ~/.gitconfig\n'
+    echo '当前用户全局配置文件: ~/.gitconfig'
 fi
 
 # 生成 SSH 密钥

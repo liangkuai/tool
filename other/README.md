@@ -1,5 +1,15 @@
 # 日常
 
+### 思维导图
+
+1. [XMind](https://www.xmind.cn/)
+
+
+### 代理
+
+1. [Shadowsocks](./shadowsocks/)
+
+
 ### 作图
 
 1. [Diagrams.net](https://www.diagrams.net/)
