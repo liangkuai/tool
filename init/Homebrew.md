@@ -42,7 +42,19 @@ brew link wget --force
 
 ### 3. FAQ
 
-#### 1. Homebrew 中提示的 keg-only 是什么意思？
+#### 3.1 安装报错：“Failed to connect to raw.githubusercontent.com port 443: Operation timed out”
+
+改用镜像
+
+```bash
+# 安装
+/bin/bash -c "$(curl -fsSL https://cdn.jsdelivr.net/gh/ineo6/homebrew-install/install.sh)"
+
+# 卸载
+/bin/bash -c "$(curl -fsSL https://cdn.jsdelivr.net/gh/ineo6/homebrew-install/uninstall.sh)"
+```
+
+#### 3.2 Homebrew 中提示的 keg-only 是什么意思？
 
 首先，brew 本身是酿造、酿酒的意思，会用这个字的原因是 Homebrew 的安装方式为下载源代码到本地回来做编译，由于是在自己电脑做本地编译，所以这个工具叫做 brew at Home，自家酿酒。
 

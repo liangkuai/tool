@@ -29,6 +29,12 @@
 
 - .ignore
 
+#### 主题
+
+- Monokai Pro Theme
+
+- One Dark Theme
+
 
 ## 参考
 

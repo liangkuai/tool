@@ -11,7 +11,7 @@ Mac 上的包管理工具，参考：[Homebrew 使用](./Homebrew.md)
 使用 Homebrew 安装
 
 ```bash
-brew cask install java8
+brew install openjdk@8
 ```
 
 
