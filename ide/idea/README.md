@@ -2,15 +2,24 @@
 
 ## 设置
 
-- 显示行号：`Editor -> General -> Appearance -> Show line numbers`
+1. 显示行号：`Editor -> General -> Appearance -> Show line numbers`
+2. 代码提示或智能补充忽略大小写：`Editor -> General -> Code Completion -> Match case: All letters`
+3. 取消单行显示tabs：取消勾选 `Editor -> General -> Editor Tabs -> Appearance -> Show tabs in one row`
+4. 优化导入包：`Editor -> General -> Auto Import -> Java -> Optimize imports on the fly`
+5. 悬浮提示：鼠标放到代码上会出现相应的提示：`Editor -> General -> Other -> Show quick documentation on mouse on move`
 
-- 代码提示或智能补充忽略大小写：`Editor -> General -> Code Completion -> Match case: All letters`
 
-- 悬浮提示：鼠标放到代码上会出现相应的提示：`Editor -> General -> Other -> Show quick documentation on mouse on move`
+#### Java 相关文件模板
 
-- 优化导入包：`Editor -> General -> Auto Import -> Java -> Optimize imports on the fly`
+设置项：`File and Code Templates`，`Includes -> File Header` 这个文件中的模板内容会被引入所有 Java 相关文件中。
 
-- 取消单行显示tabs：取消勾选 `Editor -> General -> Editor Tabs -> Appearance -> Show tabs in one row`
+```java
+/**
+ * @author ${USER}
+ * @date ${DATE}
+ */
+```
+
 
 
 ## 常用插件
