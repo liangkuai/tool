@@ -1,3 +1,38 @@
+## Chrome
+
+#### 1. [Linux Software Repositories](https://www.google.com/linuxrepositories/)
+
+```bash
+$ wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+$ sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list'
+$ sudo apt-get update 
+$ sudo apt-get install google-chrome-stable
+```
+
+#### 2. Chrome 离线安装包
+
+参考：[Google Chrome 离线安装包的官方下载地址是什么？ —— 知乎](https://www.zhihu.com/question/19981495)
+
+
+---
+
+## SS
+
+#### 1. Client
+
+```bash
+$ sudo add-apt-repository ppa:hzwhuang/ss-qt5
+$ sudo apt-get update
+$ sudo apt-get install shadowsocks-qt5
+```
+
+#### 2. Chrome 插件：SwitchyOmega
+
+参考：[Proxy SwitchyOmega：Chrome 和 Firefox 浏览器上的代理扩展程序](https://www.switchyomega.com/)
+
+
+---
+
 ## JDK
 
 #### 1. OpenJDK
@@ -20,9 +55,15 @@ $ sudo update-alternatives --config java
 $ sudo update-alternatives --config javac
 ```
 
+
+---
+
 ## IDEA
 
 参考：[IntelliJ IDEA 简体中文专题教程 —— judasn](https://github.com/judasn/IntelliJ-IDEA-Tutorial)
+
+
+---
 
 ## VSCode
 
@@ -32,34 +73,8 @@ $ sudo tar -zxv -f ~/下载/code-stable-1545156735.tar.gz -C /opt
 $ mv VSCode-linux-x64 vscode
 ```
 
-## Chrome
 
-#### 1. [Linux Software Repositories](https://www.google.com/linuxrepositories/)
-
-```bash
-$ wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
-$ sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list'
-$ sudo apt-get update 
-$ sudo apt-get install google-chrome-stable
-```
-
-#### 2. Chrome 离线安装包
-
-参考：[Google Chrome 离线安装包的官方下载地址是什么？ —— 知乎](https://www.zhihu.com/question/19981495)
-
-## ShadowSocks-Qt5
-
-#### 1. client
-
-```bash
-$ sudo add-apt-repository ppa:hzwhuang/ss-qt5
-$ sudo apt-get update
-$ sudo apt-get install shadowsocks-qt5
-```
-
-#### 2. Chrome 插件：SwitchyOmega
-
-参考：[Proxy SwitchyOmega：Chrome 和 Firefox 浏览器上的代理扩展程序](https://www.switchyomega.com/)
+---
 
 ## Docker
 
@@ -93,6 +108,9 @@ $ sudo groupadd docker
 $ sudo usermod -aG docker $USER
 ```
 
+
+---
+
 ## [VirtualBox](https://www.virtualbox.org/wiki/Linux_Downloads)
 
 ```bash
@@ -103,6 +121,9 @@ $ wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc -O- | sudo ap
 $ sudo apt-get update 
 $ sudo apt-get install virtualbox-6.0
 ```
+
+
+---
 
 ## 网易云音乐
 
@@ -116,6 +137,9 @@ $ sudo dpkg -i netease-cloud-music_1.1.0_amd64_ubuntu.deb
 ```
 
 其他修改参考：[Ubuntu 18.04 装了网易云音乐，难道只能用 sudo 启动吗？](https://www.zhihu.com/question/277330447)
+
+
+---
 
 ## 美化
 
