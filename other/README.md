@@ -7,7 +7,7 @@
 
 ### 代理
 
-1. [Shadowsocks](./shadowsocks/)
+1. [SS](./shadowsocks/)
 
 
 ### 作图

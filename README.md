@@ -10,8 +10,14 @@
 
 - [IDEA](./ide/idea/)
 - [VS Code](./ide/vscode/)
+- [Vim](./ide/vim/)
 
 
-#### [3. 日常](/other/)
+#### 3. Docker
 
-记录些好用的日常工具、网站等等。
+- [MySQL](./docker/mysql/)
+
+
+#### 4. 日常
+
+[一些好用的日常工具、网站](./other/)

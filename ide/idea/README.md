@@ -49,6 +49,8 @@
 - SequenceDiagram
 
 
+---
+
 ## 参考
 
 - [IntelliJ-IDEA-Tutorial - judasn - GitHub](https://github.com/judasn/IntelliJ-IDEA-Tutorial)
