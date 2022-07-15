@@ -18,7 +18,7 @@ $ sudo apt-get install google-chrome-stable
 
 ## SS
 
-#### 1. Client
+#### 1. SS Client
 
 ```bash
 $ sudo add-apt-repository ppa:hzwhuang/ss-qt5
@@ -28,7 +28,7 @@ $ sudo apt-get install shadowsocks-qt5
 
 #### 2. Chrome 插件：SwitchyOmega
 
-参考：[Proxy SwitchyOmega：Chrome 和 Firefox 浏览器上的代理扩展程序](https://www.switchyomega.com/)
+参考：[SwitchyOmega - GitHub](https://github.com/FelisCatus/SwitchyOmega)
 
 
 ---

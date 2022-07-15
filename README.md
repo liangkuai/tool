@@ -1,6 +1,7 @@
-# tool
+# tool and config
 
-#### 1. 系统初始
+
+#### 1. 系统初始化
 
 - [ubuntu](./init/ubuntu.md)
 - [mac](./init/mac.md)
