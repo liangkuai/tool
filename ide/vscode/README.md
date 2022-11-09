@@ -16,6 +16,10 @@
 
 - GitLens — Git supercharged
 
+#### 数据库
+
+- MySQL
+
 #### Docker
 
 - Docker
@@ -26,7 +30,7 @@
 
 #### 特殊文件
 
-- hexdump for VSCode（查看二进制文件）
+- Hex Editor（查看二进制文件）
 
 #### 主题
 
