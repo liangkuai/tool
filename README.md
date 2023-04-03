@@ -14,11 +14,6 @@
 - [Vim](./ide/vim/)
 
 
-#### 3. Docker
-
-- [MySQL](./docker/mysql/)
-
-
-#### 4. 日常
+#### 3. 日常
 
 [一些好用的日常工具、网站](./other/)

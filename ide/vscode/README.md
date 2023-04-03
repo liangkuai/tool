@@ -44,4 +44,3 @@
 
 - Chinese (Simplified) Language Pack for Visual Studio Code
 
-

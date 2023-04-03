@@ -32,6 +32,10 @@
 
 - Maven Helper
 
+- MapStruct Support
+
+- jclasslib Bytecode Viewer
+
 #### Tool
 
 - CodeGlance：代码地图
