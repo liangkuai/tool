@@ -68,7 +68,7 @@ sudo update-alternatives --config javac
 ## VSCode
 
 ```bash
-# 下载 .tar.gz 压缩包
+# 官网下载 .tar.gz 压缩包之后
 sudo tar -zxv -f ~/下载/code-stable-1545156735.tar.gz -C /opt
 mv VSCode-linux-x64 vscode
 ```
@@ -142,3 +142,15 @@ sudo add-apt-repository ppa:noobslab/icons
 sudo apt-get update
 sudo apt-get install ultra-flat-icons
 ```
+
+
+---
+
+## Maven
+
+[shell 脚本](./config.sh)
+
+1. 安装在`/opt`目录下。
+
+2. 不修改环境变量`PATH`，在`/usr/local/bin`下创建软链接文件`mvn`链接到`../bin/mvn`。
+
