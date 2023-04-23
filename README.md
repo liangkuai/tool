@@ -12,6 +12,7 @@
 - [IDEA](./ide/idea/)
 - [VS Code](./ide/vscode/)
 - [Vim](./ide/vim/)
+- [Cursor](./ide/cursor)
 
 
 #### 3. AI
